@@ -13,7 +13,7 @@ body{
 background-color:beige;
     }
 
- 
+main{display: block;}
 h1{
     text-align:center;
     margin: 1em 0em;
@@ -22,7 +22,7 @@ h1{
 }
 h2{
     border-bottom: 1pt solid tomato;
-    color:tomato;
+    color:#BD1C00;
     margin:1em 0em 0.5em 0em;
     padding-bottom: 0.5em;
 }
@@ -61,20 +61,22 @@ ol li ul li
 .name
 {
     font-size:120%;
-    color:gray;
+    color:#474747;
 }
 .email
 {
     font-size:80%;
     font-weight: bold;
+    color:#8F0000;
 }
 .tel
 {
     font-size: small;
+    color:#8F0000;
 }
 /* unvisited link */
 a:link {
-    color: #FF0000;
+    color: #4D0000;
   }
   
   /* visited link */
